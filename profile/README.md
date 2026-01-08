@@ -7,14 +7,14 @@ We believe that game development should be about **logic, creativity, and contro
 
 ---
 
-### 🛠 The Philosophy
+### The Philosophy
 Ludas is more than just code, it is a commitment to a specific way of building:
 
 * **Simple > Clever:** If you can't read it, it doesn't belong here. 
 * **Explicit > Magical:** You call the functions; the functions don't call you. You stay in the driver's seat.
 * **Minimalist > Bloated:** We provide the foundation. You build the skyscraper.
 
-### 🚀 Join the Vengeance
+### Join the Vengeance
 Ludas exists to hold your hand and allow you to fly alone. We are building the tools we wish we had when we started, tools that favor the developer over the engine.
 
 **Simple API → Simple Code → Fun Games.**
