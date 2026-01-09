@@ -1,0 +1,65 @@
+name: Ludas Contribution Template
+description: Use this to submit code or documentation to The Ludas Project.
+title: "[PR]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## "Simple API → Simple Code → Fun Games."
+        Thank you for contributing! Please fill out the sections below.
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: "[Quick summary]"
+      placeholder: "e.g., Fixed memory leak in the audio buffer."
+    validations:
+      required: true
+
+  - type: textarea
+    id: functions
+    attributes:
+      label: "[Functions added/modified]"
+      placeholder: "List specific functions changed (e.g., Ludas_InitAudio)."
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "[Description]"
+      placeholder: "Explain the logic behind this change."
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: "[Location of Change(s)]"
+      placeholder: "e.g., /src/core/audio.c"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: philosophy
+    attributes:
+      label: Philosophy Check
+      options:
+        - label: "Simple > Clever: My code is readable and straightforward."
+          required: true
+        - label: "Explicit > Magical: I avoided hidden abstractions."
+          required: true
+        - label: "Minimalist > Bloated: I did not add any heavy dependencies."
+          required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type of Change
+      options:
+        - Bug Fix
+        - New Feature
+        - Refactoring
+        - Documentation
+    validations:
+      required: true
